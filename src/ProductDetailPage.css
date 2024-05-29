@@ -1,0 +1,40 @@
+/* ProductDetailPage.css */
+
+.product-detail {
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.product-detail img {
+    width: 400px;
+    height: auto;
+    margin-right: 40px;
+    height: 400px;
+}
+
+.product-detail .info {
+    flex: 1;
+}
+
+.product-detail h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-detail p {
+    margin-bottom: 10px;
+}
+
+.product-detail button {
+    padding: 10px 20px;
+    background-color: #45a049;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.product-detail button:hover {
+    background-color: #173e19;
+}

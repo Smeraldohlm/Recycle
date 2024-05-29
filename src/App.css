@@ -1,0 +1,147 @@
+body {
+  font-family: 'Libre Baskerville';
+  margin: 0;
+  padding: 0;
+  background-color: white; 
+  color: #090101fd; 
+}
+.nav a.active {
+  color: #2196f3; /* Bleu */
+}
+
+
+.kid-area {
+  display: flex;
+  align-items: center;
+  margin-right: auto; 
+}
+
+.kid-area span {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #fff;
+  margin-right: 15px;
+}
+
+.kid-area svg {
+  width: 24px;
+  height: 24px;
+}
+
+.nav {
+  background-color: #436831;
+  color: #fff;
+  padding: 18px;
+  display: flex;
+  align-items: center; 
+}
+
+.nav a {
+  margin-left: 20px;
+  
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.3em;
+}
+
+
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 91vh;
+  overflow: hidden;
+  color: #0e0101;
+}
+
+.hero-image {
+  position: relative;
+  width: 100%;
+  height: 100%; /* Ajuster la hauteur pour remplir toute la section */
+  overflow: hidden;
+  opacity: 0.75;
+}
+
+.hero-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Assurer que l'image couvre toute la section */
+  opacity: 0.75;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: black; /* Couleur du texte */
+}
+
+.hero-content h2 {
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero-content h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-content h3 {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #183f05; /* Couleur du bouton */
+  color:white;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 1.2em;
+  transition: background-color 0.3s ease-in-out;
+  margin-right: 15px;
+}
+
+.cta-button:hover {
+  background-color: #1565c0; /* Couleur du bouton au survol */
+}
+
+.search-form {
+  flex :0.8;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 100px;
+  padding: 7px;
+}
+
+.search-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.search-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.search-button svg {
+  width: 20px;
+  height: 20px;
+}
+
+

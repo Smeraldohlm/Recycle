@@ -1,0 +1,93 @@
+.sell-product-form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.sell-product-form input[type="text"],
+.sell-product-form input[type="number"],
+.sell-product-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.sell-product-form input[type="file"] {
+    margin-bottom: 18px;
+}
+
+.sell-product-form button {
+    background-color: #436831;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.sell-product-page {
+    background-color: #f2f2f2;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sell-product-form button:hover {
+    background-color: #45a049;
+}
+.sell-image {
+    position: relative;
+    width: 100%;
+    height: 90vh; /* Utilisation de la hauteur de l'écran */
+    overflow: hidden;
+    opacity: 0.75;
+}
+
+.sell-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    opacity: 0.75; 
+}
+
+.sell-image .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+    z-index: 1; /* Assurez-vous que le texte est au-dessus de l'image */
+}
+
+.sell-image .content h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.hero-content {
+    text-align: center;
+  }
+  
+  .hero-content h2 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000; /* Noir */
+  }
+  
+  .hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #000; /* Gris plus foncé */
+  }
+  

@@ -1,0 +1,64 @@
+/* Description.css */
+.description {
+    text-align: center;
+    
+}
+
+.description h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.description p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+}
+
+.description-projet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.rubrique {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.rubrique img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.rubrique h3 {
+    font-size: 20px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.rubrique p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+    margin-top: 10px;
+}
+
+.rubrique a {
+    font-size: 16px;
+    color: #436831;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.rubrique a:hover {
+    text-decoration: underline;
+}
+
